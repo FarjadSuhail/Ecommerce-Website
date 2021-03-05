@@ -1,0 +1,299 @@
+*{
+    box-sizing:0px;
+    margin:0;
+    padding:0;
+   
+  }
+ 
+  a{
+    text-decoration: none;
+ 
+  }
+ 
+  p{
+    margin:0.75rem 0;
+  }
+ 
+  /* Utility Class*/
+ 
+  .text-primary{
+    color:lightseagreen;
+  }
+ 
+ 
+ .l-heading{
+   font-size:4rem;
+   margin-bottom: 0.75rem;
+   line-height:1.1;
+ }
+ 
+ .lead
+ {
+   font-size: 1.3rem;
+   margin-bottom: 2rem;
+ 
+ }
+ 
+ .btn{
+   display:inline-block;
+   color:white;
+   background:lightseagreen;
+   padding:0.5rem 2rem;
+   border:none;
+   border-radius:5px;
+ }
+
+
+  /* Navbar */
+ 
+  #navbar{
+    display:flex;
+    background:#333;
+    color:white;
+    position:sticky;
+    top:0;
+    justify-content: space-between;
+    z-index: 1;
+    padding:1rem;
+
+    }
+ 
+ 
+ #navbar ul{
+   display:flex;
+   align-items:center;
+   list-style: none;
+ 
+ }
+ 
+ #navbar ul li a{
+   color:white;
+   padding:0.75rem;
+   margin: 0 0.25rem;
+ }
+ 
+ #navbar ul li a:hover{
+ 
+   /* background:#93cb52; */
+   background:lightseagreen;
+   border-radius:5px;
+ }
+ 
+ /* Showcase */
+ 
+ #showcase{
+   background:#333 url('../Images/ady-teenagerinro-sQ0xXxQdfeY-unsplash.jpg') no-repeat center center/cover;
+   height:100vh;
+   color:white;
+ }
+ 
+ #showcase .showcase-content{
+   display:flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   height:100%;
+   padding:0 2rem;
+ 
+   /* Overlay */
+   position:absolute;
+   top: 60px;
+   left:0;
+   background-color:rgba(0,0,0,0.4);
+}
+ 
+ 
+/* Drop down*/ 
+ 
+ #navbar ul li{
+color:white;
+display:inline-block;
+padding:1rem;
+position:relative;
+}
+
+#navbar ul li a{
+  color:white;
+  text-decoration: none;
+
+}
+ 
+/* Hide nested ul by default */
+
+#navbar ul li ul{
+    display:none;
+  }
+  
+
+  /* Nesteed dropdown show */
+  
+  #navbar ul li:hover ul{
+    display:block;
+    position: absolute;
+    left:0px;
+    width:200px;
+    margin-top:1rem;
+  }
+   
+  
+#navbar ul li ul{
+    color:black;
+  }
+  
+ #navbar ul li a{
+    color:white;
+    padding:0.75rem;
+    margin: 0 0.25rem;
+  }
+  
+  #navbar ul li a:hover{
+  
+    /* background:#93cb52; */
+    color:black;
+    background:lightseagreen;
+    border-radius:5px;
+  }
+ 
+ 
+/* form */
+
+#form{
+    float:right;
+    padding-right: 8px;
+    line-height: 40px;
+}
+
+
+.Search1{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+    
+}
+/*
+.Sear{
+    display:inline-block;
+    color:white;
+    background:lightseagreen;
+    padding:0.5rem 2rem;
+    border:none;
+    border-radius:5px;
+  }
+
+  */
+
+  input{
+    border:3px solid lightseagreen;
+    height:20px;
+    width:250px;
+    border-radius: 50px;
+    padding:0px 5px;
+}
+
+#single_product{
+  float:left;
+  margin-left:30px;
+  padding:10px;
+}
+
+#single_product img{
+  border:2px solid black;
+}
+
+
+#products_box{
+
+  width:780px;
+  text-align: center;
+  margin-left:30px;
+  margin-bottom:10px;
+}
+
+
+
+/*   */
+
+
+
+.main_wrapper{
+	
+	width:1000px;
+	height:auto;
+	margin:auto;
+
+}
+
+.header_wrapper{
+
+width:1000px;
+height:150px;
+
+}
+
+
+.content_wrapper{
+  width:1000px;
+  height:700px;
+  background:grey;
+}
+
+.content_wrapper #content_area{
+  width:100px;
+  height:700;
+  float:left;
+  /* background:purple; */
+}
+
+.content_wrapper #sidebar{
+  width:200px;
+  height:800px;
+  background:black;
+  float:left;
+}
+
+.menubar-shopping_cart{
+    width:1000px;
+    height:100px;
+    background: lightgray;
+    color:black;
+}
+
+#main-footer{
+  height:10px;
+  width:200;
+  background:black;
+}
+
+#sidebar{
+  width:200px;
+  height:800px;
+  background:black;
+  float:right;
+}
+
+#sidebar_title{
+  background:lightgray;
+  color:black;
+  font-size:22px;
+  padding:10px;
+  text-align:center;
+}
+
+#cats{
+  text-align:center;
+}
+ 
+#cats li{
+  list-style:none;
+  margin:5px;
+}
+
+#cats a{
+  color:white;
+  padding:8px;
+  margin:5px;
+  text-align: center;
+  text-decoration: none;
+}
